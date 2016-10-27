@@ -15,6 +15,7 @@
 		2941611C15DB55E5003210B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2941611B15DB55E5003210B3 /* ViewController.m */; };
 		2941613515DBCCE5003210B3 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2941613415DBCCE5003210B3 /* CoreBluetooth.framework */; };
 		29FD69DD17B9D5C30015E258 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29FD69DC17B9D5C30015E258 /* Default-568h@2x.png */; };
+		62073E201DBFDC83003F3385 /* TableViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 62073E1F1DBFDC83003F3385 /* TableViewController2.m */; };
 		B659BE0C1DAFFEBE00E9791C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B659BE0B1DAFFEBE00E9791C /* UIKit.framework */; };
 		B6A98B951ABCF7CE0033F220 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A98B941ABCF7CE0033F220 /* TableViewController.m */; };
 /* End PBXBuildFile section */
@@ -35,6 +36,8 @@
 		2941611B15DB55E5003210B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		2941613415DBCCE5003210B3 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		29FD69DC17B9D5C30015E258 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		62073E1E1DBFDC83003F3385 /* TableViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController2.h; sourceTree = "<group>"; };
+		62073E1F1DBFDC83003F3385 /* TableViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController2.m; sourceTree = "<group>"; };
 		B659BE0B1DAFFEBE00E9791C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B6A98B931ABCF7CE0033F220 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		B6A98B941ABCF7CE0033F220 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
@@ -91,6 +94,8 @@
 				B6A98B941ABCF7CE0033F220 /* TableViewController.m */,
 				2941611A15DB55E5003210B3 /* ViewController.h */,
 				2941611B15DB55E5003210B3 /* ViewController.m */,
+				62073E1E1DBFDC83003F3385 /* TableViewController2.h */,
+				62073E1F1DBFDC83003F3385 /* TableViewController2.m */,
 				2941610C15DB55E5003210B3 /* Supporting Files */,
 			);
 			path = BLEChat;
@@ -191,6 +196,7 @@
 				2941611615DB55E5003210B3 /* AppDelegate.m in Sources */,
 				2941611C15DB55E5003210B3 /* ViewController.m in Sources */,
 				B6A98B951ABCF7CE0033F220 /* TableViewController.m in Sources */,
+				62073E201DBFDC83003F3385 /* TableViewController2.m in Sources */,
 				2932F6931813D79B0049385E /* BLE.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
